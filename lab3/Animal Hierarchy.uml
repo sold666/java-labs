@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>animal.hierarchy</OriginalElement>
+  <nodes>
+    <node x="10.5" y="166.0">animal.hierarchy.Amphibian</node>
+    <node x="27.0" y="0.0">animal.hierarchy.Animal</node>
+    <node x="2.5" y="498.0">animal.hierarchy.SiberianFrog</node>
+    <node x="0.0" y="332.0">animal.hierarchy.Diplasiocoela</node>
+    <node x="25.5" y="249.0">animal.hierarchy.Tailless</node>
+    <node x="37.0" y="415.0">animal.hierarchy.Frog</node>
+    <node x="23.0" y="83.0">animal.hierarchy.Chordal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="animal.hierarchy.Diplasiocoela" target="animal.hierarchy.Tailless" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="animal.hierarchy.Frog" target="animal.hierarchy.Diplasiocoela" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="animal.hierarchy.Amphibian" target="animal.hierarchy.Chordal" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="animal.hierarchy.Chordal" target="animal.hierarchy.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="animal.hierarchy.SiberianFrog" target="animal.hierarchy.Frog" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="animal.hierarchy.Tailless" target="animal.hierarchy.Amphibian" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8711433756805808" showDependencies="false" x="577.2520833333333" y="285.34583333333336" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
